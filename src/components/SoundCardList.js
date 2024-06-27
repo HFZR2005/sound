@@ -2,12 +2,12 @@
 import React, { useState, useEffect } from 'react';
 import soundCardData from '../services/sounds.json';
 import SoundCard from './SoundCard';
-import { FaMusic, FaHeadphones, FaMicrophone } from 'react-icons/fa';
+import { IoRainyOutline, IoThunderstormOutline  } from "react-icons/io5";
+
 
 const iconMap = {
-  FaMusic: FaMusic,
-  FaHeadphones: FaHeadphones,
-  FaMicrophone: FaMicrophone
+  rain: IoRainyOutline,
+  thunder: IoThunderstormOutline ,
 };
 
 const SoundCardList = () => {
@@ -20,9 +20,10 @@ const SoundCardList = () => {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-6">
       {cards.map(card => {
-        const IconComponent = iconMap[card.iconName];
+        const soundName = card.name;
+        const IconComponent = iconMap[soundName];
         return (
-          <SoundCard IconComponent={IconComponent} />
+          <SoundCard soundName={soundName} IconComponent={IconComponent} />
         );
       })}
     </div>
