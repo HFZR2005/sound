@@ -10,6 +10,12 @@
       "soundPath": "/sounds/thunder.mp3",
       "name": "thunder",
       "iconName": "IoThunderstormOutline "
+    },
+    {
+      "id": 3,
+      "soundPath": "/sounds/train.mp3",
+      "name": "train",
+      "iconName": "IoTrainOutline "
     }
   ]
   

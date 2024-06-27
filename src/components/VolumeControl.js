@@ -3,7 +3,7 @@ import React from 'react';
 
 function VolumeControl({ volume, onVolumeChange }) {
   return (
-    <div className="flex items-center mt-4">
+    <div className="flex items-center">
       <input
         type="range"
         min="0"

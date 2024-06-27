@@ -37,8 +37,13 @@ function SoundCard({ soundName, IconComponent }) {
     if (!sound) return;
     if (isPlaying) {
       sound.fade(volume / 100, 0, 1500, soundId);
+      setTimeout(() => {
+        sound.stop(soundId);
+      }, 1500);
+
     } else {
       setSoundId(sound.play());
+      sound.fade(0, volume / 100, 1500, soundId);
     }
     setIsPlaying(!isPlaying);
   };
@@ -48,7 +53,7 @@ function SoundCard({ soundName, IconComponent }) {
   };
 
   return (
-    <div className="block max-w-sm p-8 bg-white border border-gray-200 rounded-xl shadow hover:bg-green-100 dark:bg-green-800 dark:border-green-700 dark:hover:bg-green-700">
+    <div className="block max-w-sm p-8 bg-white border border-gray-200 rounded-3xl shadow hover:bg-green-100 dark:bg-green-800 dark:border-green-700 dark:hover:bg-green-700">
       <div className="flex justify-center pt-8 pb-8">
         {IconComponent && (
           <IconComponent 
@@ -58,7 +63,14 @@ function SoundCard({ soundName, IconComponent }) {
           />
         )}
       </div>
-      <VolumeControl volume={volume} onVolumeChange={handleVolumeChange} />
+      <div className="w-16"> 
+        {isPlaying ? (
+          <VolumeControl volume={volume} onVolumeChange={handleVolumeChange} />
+        ) : (
+          <div className="h-2">
+          </div>
+        )}
+      </div>
     </div>
   );
 }
