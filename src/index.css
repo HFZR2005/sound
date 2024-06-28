@@ -90,3 +90,34 @@ input[type="range"]::-moz-range-thumb:hover {
   height: 14px; /* Increase height on hover */
 }
 
+
+@keyframes hoverShadow {
+  from {
+    box-shadow: none;
+  }
+  to {
+    box-shadow: 4px 4px 0px rgba(0, 0, 0, 1);
+  }
+}
+
+@keyframes exitShadow {
+  from {
+    box-shadow: 4px 4px 0px rgba(0, 0, 0, 1);
+  }
+  to {
+    box-shadow: none;
+  }
+}
+
+.hover-shadow-animation {
+  transition: box-shadow 0.4s ease-in-out;
+}
+
+.hover-shadow-animation:hover {
+  animation: hoverShadow 0.4s forwards;
+}
+
+.hover-shadow-animation:not(:hover) {
+  animation: exitShadow 0.4s forwards;
+}
+
