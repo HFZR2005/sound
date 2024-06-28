@@ -14,5 +14,10 @@ TODO
         - [x] style audio cards 
 
 - [ ] user accounts 
+    - [ ] store user playlists (configs of volume levels for each sound that is playing)
+        - [ ] CRUD operations for these playlists
 
 - [ ] pomodoro timer (to do list)
+    - [ ] allow for setting the timer at different levels (work timer and break timer)
+    - [ ] task management (allow users to add and remove tasks) - could be like a todolist app - use mongodb to store tasks once they are added
+    - [ ] maybe gamify it (leaderboard of people who've logged the most time?)
