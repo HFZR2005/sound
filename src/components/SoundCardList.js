@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import soundCardData from '../services/sounds.json';
 import SoundCard from './SoundCard';
-import { IoRainyOutline, IoThunderstormOutline, IoTrainOutline, IoBonfireOutline  } from "react-icons/io5";
+import { IoRainyOutline, IoThunderstormOutline, IoTrainOutline, IoBonfireOutline, IoEggOutline   } from "react-icons/io5";
 import { WiStrongWind } from "react-icons/wi";
 import { FaWater } from "react-icons/fa";
 
@@ -13,6 +13,7 @@ const iconMap = {
   fire: IoBonfireOutline,
   wind: WiStrongWind,
   river: FaWater,
+  placeholder: IoEggOutline,
 };
 
 const SoundCardList = () => {

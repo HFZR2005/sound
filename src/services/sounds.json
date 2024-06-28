@@ -31,9 +31,94 @@
     },
     {
       "id": 6,
-      "soundPath": "/sounds/wind.mp3",
-      "name": "wind",
-      "iconName": "IoTrainOutline"
+      "soundPath": "/sounds/placeholder.mp3",
+      "name": "placeholder",
+      "iconName": "IoEggOutline "
+    },
+    {
+      "id": 6,
+      "soundPath": "/sounds/placeholder.mp3",
+      "name": "placeholder",
+      "iconName": "IoEggOutline "
+    },
+    {
+      "id": 6,
+      "soundPath": "/sounds/placeholder.mp3",
+      "name": "placeholder",
+      "iconName": "IoEggOutline "
+    },
+    {
+      "id": 6,
+      "soundPath": "/sounds/placeholder.mp3",
+      "name": "placeholder",
+      "iconName": "IoEggOutline "
+    },
+    {
+      "id": 6,
+      "soundPath": "/sounds/placeholder.mp3",
+      "name": "placeholder",
+      "iconName": "IoEggOutline "
+    },
+    {
+      "id": 6,
+      "soundPath": "/sounds/placeholder.mp3",
+      "name": "placeholder",
+      "iconName": "IoEggOutline "
+    },
+    {
+      "id": 6,
+      "soundPath": "/sounds/placeholder.mp3",
+      "name": "placeholder",
+      "iconName": "IoEggOutline "
+    },
+    {
+      "id": 6,
+      "soundPath": "/sounds/placeholder.mp3",
+      "name": "placeholder",
+      "iconName": "IoEggOutline "
+    },
+    {
+      "id": 6,
+      "soundPath": "/sounds/placeholder.mp3",
+      "name": "placeholder",
+      "iconName": "IoEggOutline "
+    },
+    {
+      "id": 6,
+      "soundPath": "/sounds/placeholder.mp3",
+      "name": "placeholder",
+      "iconName": "IoEggOutline "
+    },
+    {
+      "id": 6,
+      "soundPath": "/sounds/placeholder.mp3",
+      "name": "placeholder",
+      "iconName": "IoEggOutline "
+    },
+    {
+      "id": 6,
+      "soundPath": "/sounds/placeholder.mp3",
+      "name": "placeholder",
+      "iconName": "IoEggOutline "
+    },
+    {
+      "id": 6,
+      "soundPath": "/sounds/placeholder.mp3",
+      "name": "placeholder",
+      "iconName": "IoEggOutline "
+    },
+    {
+      "id": 6,
+      "soundPath": "/sounds/placeholder.mp3",
+      "name": "placeholder",
+      "iconName": "IoEggOutline "
+    },
+    {
+      "id": 6,
+      "soundPath": "/sounds/placeholder.mp3",
+      "name": "placeholder",
+      "iconName": "IoEggOutline "
     }
+
   ]
   

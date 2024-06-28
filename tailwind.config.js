@@ -9,7 +9,9 @@ module.exports = {
       },
       backgroundColor: {
         'pred': '#ef694d',
-        'secondary': '#fff9e9'
+        'secondary': '#fff9e9',
+        'tertiary': '#e4e18d',
+        'quaternary': '#c4d8d1',
       },
     }
   },
