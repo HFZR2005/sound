@@ -9,13 +9,31 @@
       "id": 2,
       "soundPath": "/sounds/thunder.mp3",
       "name": "thunder",
-      "iconName": "IoThunderstormOutline "
+      "iconName": "IoThunderstormOutline"
     },
     {
       "id": 3,
       "soundPath": "/sounds/train.mp3",
       "name": "train",
-      "iconName": "IoTrainOutline "
+      "iconName": "IoTrainOutline"
+    },
+    {
+      "id": 4,
+      "soundPath": "/sounds/fire.mp3",
+      "name": "fire",
+      "iconName": "IoBonfireOutline"
+    },
+    {
+      "id": 5,
+      "soundPath": "/sounds/river.mp3",
+      "name": "river",
+      "iconName": "FaWater"
+    },
+    {
+      "id": 6,
+      "soundPath": "/sounds/wind.mp3",
+      "name": "wind",
+      "iconName": "IoTrainOutline"
     }
   ]
   

@@ -2,13 +2,17 @@
 import React, { useState, useEffect } from 'react';
 import soundCardData from '../services/sounds.json';
 import SoundCard from './SoundCard';
-import { IoRainyOutline, IoThunderstormOutline, IoTrainOutline } from "react-icons/io5";
-
+import { IoRainyOutline, IoThunderstormOutline, IoTrainOutline, IoBonfireOutline  } from "react-icons/io5";
+import { WiStrongWind } from "react-icons/wi";
+import { FaWater } from "react-icons/fa";
 
 const iconMap = {
   rain: IoRainyOutline,
   thunder: IoThunderstormOutline ,
   train: IoTrainOutline,
+  fire: IoBonfireOutline,
+  wind: WiStrongWind,
+  water: FaWater,
 };
 
 const SoundCardList = () => {
