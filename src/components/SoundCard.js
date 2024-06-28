@@ -53,7 +53,7 @@ function SoundCard({ soundName, IconComponent }) {
   };
 
   return (
-    <div className="block max-w-sm p-8 bg-white border border-black border-2 rounded-md dark:bg-white hover-shadow-animation active:bg-secondary">
+    <div className="block max-w-sm p-8 bg-white border border-black border-2 rounded-md dark:bg-white hover-shadow-animation active:bg-secondary m-1">
       <div className="flex justify-center pt-8 pb-8">
         {IconComponent && (
           <IconComponent 
