@@ -9,8 +9,8 @@ TODO
     - [ ] make sounds fade between loops (or shorten them so that the volume is roughly consistent throughout)
     - [ ] start setting up state objects to capture what is currently being played - allow for user playlists
     - [ ] change water so it doesnt begin at an awkward position
-    - [ ] retro styling 
-        - [ ] style buttons (make them make noise)
+    - [x] retro styling 
+        - [x] style buttons (make them make noise)
         - [x] style audio cards 
 
 - [ ] user accounts 
