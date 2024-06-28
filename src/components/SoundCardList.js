@@ -12,7 +12,7 @@ const iconMap = {
   train: IoTrainOutline,
   fire: IoBonfireOutline,
   wind: WiStrongWind,
-  water: FaWater,
+  river: FaWater,
 };
 
 const SoundCardList = () => {
