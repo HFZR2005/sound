@@ -4,6 +4,15 @@ import { useState } from "react";
 
 const DropDown = () => {
   const [open, setOpen] = useState(false);
+  const playSound = () => {
+    const audio = new Audio("/sounds/click_002.mp3");
+    audio.play()
+    };
+
+    const handleClick = () => {
+        playSound();
+        setOpen(!open);
+    }
   return (
     <>
       <div className="relative inline-block text-left">
@@ -14,7 +23,7 @@ const DropDown = () => {
             id="menu-button"
             aria-expanded="true"
             aria-haspopup="true"
-            onClick={() => setOpen(!open)}
+            onClick={() => handleClick()}
           >
             Menu
             <svg
