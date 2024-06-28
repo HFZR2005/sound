@@ -6,3 +6,6 @@ TODO
 - [ ] sound control only appears once sound is chosen, change colour when chosen 
 - [ ] make sounds fade between loops (or shorten them so that the volume is roughly consistent throughout)
 - [ ] start setting up state objects to capture what is currently being played - allow for user playlists
+- [ ] retro styling 
+    - [ ] style buttons (make them make noise)
+    - [ ] style audio cards 

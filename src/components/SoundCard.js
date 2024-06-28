@@ -53,11 +53,11 @@ function SoundCard({ soundName, IconComponent }) {
   };
 
   return (
-    <div className="block max-w-sm p-8 bg-white border border-gray-200 rounded-3xl shadow hover:bg-green-100 dark:bg-green-800 dark:border-green-700 dark:hover:bg-green-700">
+    <div className="block max-w-sm p-8 bg-white border border-black border-2 rounded-md dark:bg-white dark:hover:hover:shadow-[4px_4px_0px_rgba(0,0,0,1)]">
       <div className="flex justify-center pt-8 pb-8">
         {IconComponent && (
           <IconComponent 
-            className="text-green-50 cursor-pointer" 
+            className="text-black cursor-pointer" 
             size={40} 
             onClick={togglePlaySound} 
           />
@@ -67,7 +67,7 @@ function SoundCard({ soundName, IconComponent }) {
         {isPlaying ? (
           <VolumeControl volume={volume} onVolumeChange={handleVolumeChange} />
         ) : (
-          <div className="h-2">
+          <div className="h-3">
           </div>
         )}
       </div>

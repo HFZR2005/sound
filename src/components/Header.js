@@ -1,8 +1,8 @@
 function Header() {
   return (
-    <header className="fixed top-0 left-0 w-full bg-blue-300 p-6 z-10">
-      <h1>Sounds</h1>
-    </header>
+    <div className="bg-noise fixed top-0 left-0 w-full bg-pred p-6 z-10 border-b-4 border-black">
+      <h1 className="text-2xl" style={{ fontFamily: 'Normandy Beach' }}>Sounds</h1>
+    </div>
   );
 }
 
